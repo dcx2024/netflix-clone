@@ -193,82 +193,14 @@ border-top:  7px solid rgba(57, 57, 57, 0.642);
 .dropdown button{
     font-size: 30px;
     padding: 20px;
+    
 }
 
-.dropdown1 button{
-    font-size: 30px;
-    padding: 20px;
+
+button{
+    border: none;
 }
 
-.dropdown2 button{
-    font-size: 30px;
-    padding: 20px;
-}
-
-.dropdown3 button{
-    font-size: 30px;
-    padding: 20px;
-}
-
-.dropdown4 button{
-    font-size: 30px;
-    padding: 20px;
-}
-
-.dropdown5 button{
-    font-size: 30px;
-    padding: 20px;
-}
-
-.dropdown1{
-    display: flex;
-    flex-direction: column;
-    width:80vw;
-   margin-left: auto;
-   margin-right: auto;
-   margin-bottom: 8px;
-   
-}
-
-.dropdown2{
-    display: flex;
-    flex-direction: column;
-    width:80vw;
-   margin-left: auto;
-   margin-right: auto;
-   
-   margin-bottom: 8px;
-}
-
-.dropdown3{
-    display: flex;
-    flex-direction: column;
-    width:80vw;
-   margin-left: auto;
-   margin-right: auto;
-   
-   margin-bottom: 8px;
-}
-
-.dropdown4{
-    display: flex;
-    flex-direction: column;
-    width:80vw;
-   margin-left: auto;
-   margin-right: auto;
-   
-   margin-bottom: 8px;
-}
-
-.dropdown5{
-    display: flex;
-    flex-direction: column;
-    width:80vw;
-   margin-left: auto;
-   margin-right: auto;
-   
-   margin-bottom: 8px;
-}
 
 .dropdown button{
     padding: 20px;
@@ -276,47 +208,9 @@ border-top:  7px solid rgba(57, 57, 57, 0.642);
     color: white;
     text-align: left;
     border: none;
+    align-items: center;
 }
 
-.dropdown1 button{
-    padding: 20px;
-    background-color: rgba(62, 62, 62, 0.463);
-    color: white;
-    text-align: left;
-    border: none;
-}
-
-.dropdown2 button{
-    padding: 20px;
-    background-color: rgba(62, 62, 62, 0.463);
-    color: white;
-    text-align: left;
-    border: none;
-}
-
-.dropdown3 button{
-    padding: 20px;
-    background-color: rgba(62, 62, 62, 0.463);
-    color: white;
-    text-align: left;
-    border: none;
-}
-
-.dropdown4 button{
-    padding: 20px;
-    background-color: rgba(62, 62, 62, 0.463);
-    color: white;
-    text-align: left;
-    border: none;
-}
-
-.dropdown5 button{
-    padding: 20px;
-    background-color: rgba(62, 62, 62, 0.463);
-    color: white;
-    text-align: left;
-    border: none;
-}
 
 .questions{
     border-top: 7px solid rgba(57, 57, 57, 0.642);
@@ -329,6 +223,8 @@ border-top:  7px solid rgba(57, 57, 57, 0.642);
     font-size: 20px;
     border-radius: 5px;
     color: white;
+    border: none;
+    width:10vw;
     }
 
     .email1{
@@ -688,6 +584,8 @@ margin-right: auto;
     .enjoy h4{
         width:30vw;
         font-size: 28px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .enjoy h1{
