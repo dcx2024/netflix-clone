@@ -1,0 +1,679 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+	font-family: 'Arial', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	background: #000;
+	color: #999;
+}
+
+nav{
+    position: relative;
+    z-index:2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+nav img{
+    width:10vw;
+    z-index: 2;
+    position: relative;
+}
+nav button{
+    background-color: red;
+    padding:8px 15px 8px 15px;
+    color: white;
+   font-weight: 600;
+    border-radius: 5px;
+    margin-left: 38vw;
+    cursor: pointer;
+}
+
+nav button:hover{
+    background-color: rgb(205, 0, 0);
+    transition: ease-in 0.3s;
+}
+
+.showcase{
+    background: url('https://i.ibb.co/vXqDmnh/background.jpg') no-repeat center center/cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+
+.showcase::after{
+   content: '';
+   z-index: 1;
+
+   position: absolute;
+   top:0;
+   left: 0;
+   width: 100%;
+   height:100%;
+   background: rgba(0, 0, 0, 0.492);
+   box-shadow: inset 50px 50px 250px #000000, inset -50px -50px 250px #000000;
+}
+
+.text{
+    position: relative;
+    z-index: 2;
+    color: white;
+    top:14vw;
+    text-align: center;
+}
+
+
+h1{
+    font-size: 44px;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+
+h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+input{
+    width:19vw;
+    padding:20px 14px 20px 14px;
+    background-color: #000000a1;
+    border: 1px solid rgb(93, 92, 92);
+    border-radius: 5px;
+}
+
+.text button{
+padding: 30px 25px 35px 25px;
+width: 13vw;
+border: none;
+background-color: red;
+font-size: 40px;
+font-weight: 700;
+border-radius: 5px;
+color: white;
+cursor: pointer;
+}
+
+.text button:hover{
+    background-color: rgb(205, 0, 0);
+    transition: ease-in 0.3s;
+}
+
+.email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.enjoy{
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    background-color: black;
+color: white;
+padding-top: 10vw;
+padding-bottom: 10vw;
+border-top: 7px solid rgba(57, 57, 57, 0.642);
+}
+
+
+
+.download{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+color: white;
+padding-bottom: 10vw;
+border-top:  7px solid rgba(57, 57, 57, 0.642);
+}
+
+.download div{
+   padding-top: 15vw;
+}
+
+.watch{
+    border-top:  7px solid rgba(57, 57, 57, 0.642);
+    padding-top: 8vw;
+    padding-left: 18vw;
+    color: white;
+    padding-bottom: 5vw;
+}
+
+.kids{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+color: white;
+padding-top: 5vw;
+padding-bottom: 5vw;
+border-top:  7px solid rgba(57, 57, 57, 0.642);
+}
+
+.kids div{
+    padding-top: 10vw;
+}
+
+.dropdown-content{
+    overflow: hidden;
+    height: 0;
+    background-color: #59575787;
+    
+    color: white;
+    font-size: 20px;
+}
+
+.dropdown.active .dropdown-content{
+    height: 180px;
+    padding: 40px;
+    transition: ease-in 0.3s;
+    transition: ease-out 0.3s;
+}
+
+
+
+.dropdown{
+    display: flex;
+    flex-direction: column;
+    width:80vw;
+   margin-left: auto;
+   margin-right: auto;
+   gap: 10px
+}
+
+.dropdown button{
+    font-size: 30px;
+    padding: 20px;
+    
+}
+
+
+button{
+    border: none;
+}
+
+
+.dropdown button{
+    padding: 20px;
+    background-color: rgba(62, 62, 62, 0.463);
+    color: white;
+    text-align: left;
+    border: none;
+    align-items: center;
+}
+
+
+.questions{
+    border-top: 7px solid rgba(57, 57, 57, 0.642);
+    padding-top: 8vw;
+}
+
+.email1 button{
+    padding: 16px;
+    background-color: red;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    width:10vw;
+    }
+
+    .email1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        
+    }
+
+footer{
+    border-top:  7px solid rgba(57, 57, 57, 0.642);
+    margin-top: 5vw;
+    padding-top: 4vw;
+}
+
+
+.footer-cols{
+    display: flex;
+   
+    justify-content: center;
+}
+
+.footer-cols ul{
+    color: #999;
+    list-style-type: none;
+    padding: 2vw 6vw 0 6vw;
+
+}
+
+.footer-cols a{
+    color: #999;
+}
+
+.footer-cols li{
+    margin-bottom: 20px;
+}
+
+.only{
+  
+  margin-left: 14.5vw;
+    color: #999;
+}
+
+select{
+    background-color: #000;
+    color: white;
+    border: 0.5px solid rgb(125, 125, 125);
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px 10px 5px 15px;
+    margin: 1vw 0 2vw 14vw;
+}
+
+.last{
+    margin-left: 14vw;
+    margin-bottom: 5vw;
+}
+
+@media(min-width: 300px){
+    nav img{
+        width:27vw
+     }
+    
+    .showcase{
+        background: url('https://i.ibb.co/vXqDmnh/background.jpg') no-repeat center center/cover;
+        width: 100vw;
+    height: 100vh;
+        position: relative;
+    }
+    
+   .text h1{
+        width:80vw;
+        font-size: 28px;
+        margin-right: auto;
+        margin-left: auto;
+font-weight: 700;
+    }
+
+  .text  h4{
+        font-size: 15px;
+        width:60vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        font-weight: bold;
+    }
+
+    .text{
+        margin-top: 12vw
+    }
+
+    .email{
+        display: block;
+        
+    }
+    input{
+        width:60vw;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .email button{
+        width: 50vw;
+        font-size: 20px;
+        padding:15px
+    }
+
+    .enjoy{
+        display: block;
+justify-content: center;
+        
+    }
+    .enjoy h1{
+        font-size: 20px;
+        width: 100vw;
+        text-align: center;
+    }
+
+    .enjoy h4{
+        width:60vw;
+        font-size: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    iframe{
+        width:70vw;
+        height: auto;
+        margin-left: 15vw;
+        margin-right: auto;
+        
+    }
+
+    .download{
+        display: block;
+
+    }
+
+    .download img{
+        width: 70vw;
+        margin-left: 15vw;
+    }
+
+    h1{
+        font-size: 25px;
+        text-align: center;
+    }
+    .download h1{
+        font-size: 25px;
+        
+        width:100vw;
+        text-align: center;
+        
+    }
+    .download h4{
+        text-align: center;
+    }
+
+    .watch{
+text-align: center;
+padding-left: 0;
+    }
+
+    .kids{
+        display: block;
+        text-align: center;
+    }
+
+    .kids img{
+        width:70vw;
+        
+      
+    }
+    .kids h1{
+        width:70vw;
+        margin-left: 15vw;
+    }
+
+    .email1{
+        display: block;
+    }
+
+    .email1 button{
+        margin-left: 30vw;
+    }
+    
+
+    .footer-cols{
+        display: none;
+    }
+
+    footer a{
+        display: none;
+    }
+
+    footer select{
+        display: none;
+    }
+
+.last{
+        text-align: center;
+        margin-left: 0;
+    }
+}
+
+@media(min-width: 400px){
+    nav img{
+        width:17vw
+     }
+    
+    .email1 button{
+        margin-left: 35vw;
+    }
+
+    .showcase{
+        height: 90vh;
+
+    }
+}
+
+@media(min-width: 500px){
+    nav img{
+        width:17vw
+     }
+    
+    .email1 button{
+        margin-left: 38vw;
+    }
+
+    .showcase{
+        height:90vh
+    }
+
+    iframe{
+        height: 50vh;
+}
+}
+
+
+@media(min-width: 600px){
+    nav img{
+        width:15vw
+     }
+    .email1 button{
+        margin-left: 40vw;
+    }
+
+    .showcase{
+        height: 100vh;
+    }
+
+    iframe{
+        height: 50vh;
+    }
+}
+@media (min-width: 700px){
+ nav img{
+    width:13vw
+ }
+    iframe{
+        
+        width:70vw;
+        height: 50vh
+    }
+
+    .showcase{
+        height: 100vh;
+    }
+
+    .text h4{
+        font-size: 20px;
+    }
+
+    .text h1{
+        font-size: 35px
+    }
+
+    .email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+input{
+    margin:0;
+}
+
+    .email button{
+        width:20vw;
+
+    }
+    .email1 button{
+margin-left: 41vw;
+    }
+
+    .enjoy h1{
+        font-size: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .enjoy{
+        display: block;
+    ;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+   .enjoy h4{
+        font-size: 20px;
+        margin:0;
+        width:100vw
+    }
+
+    h4{
+        font-size: 28px;
+    }
+    .email1{
+        display: flex
+    }
+
+    .email1 button{
+        margin:0
+    }
+}
+
+@media (min-width:960px){
+    nav img{
+        width:10vw
+     }
+    .enjoy{
+        display: flex;
+        
+    
+    }
+input{
+    max-width:40vw
+}
+
+.email{
+width: 60vw;
+margin-left: auto;
+margin-right: auto;
+}
+
+.email1{
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .enjoy h4{
+        width:30vw;
+        font-size: 28px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .enjoy h1{
+        width: 40vw;
+    }
+
+    .text h1{
+        font-size: 40px;
+    }
+    
+    .text{
+        margin-top: 5vw;
+    }
+    iframe{
+        width: 40vw;
+        margin-left: 5vw;
+    }
+
+    .download{
+        display: flex;
+    }
+
+    .download h1{
+        width:50vw;
+        font-size: 40px;
+    }
+
+    .download h4{
+        width: 50vw;
+    }
+
+    .download img{
+        width:50vw;
+        margin:0
+    }
+
+    .watch{
+        text-align: left;
+        padding-left: 5vw;
+    }
+
+    .watch h1{
+        text-align: left;
+    }
+
+    .kids{
+        display: flex;
+       margin-right: 4vw;
+    }
+
+    .kids img{
+        width:50vw;
+    
+    }
+
+    .kids h1{
+        width:50vw;
+        margin: 0;
+    
+    }
+
+    .kids h4{
+        width: 50vw;
+    }
+}
+
+@media(min-width: 1100px){
+.text{
+    margin-top: 2vw;
+}
+}
+
+@media(min-width: 1300px){
+    .enjoy{
+        margin-left: 5vw;
+    }
+
+    .email{
+        width: 40vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media(min-width:1400px){
+    .email{
+        width: 40vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
