@@ -173,7 +173,7 @@ border-top:  7px solid rgba(57, 57, 57, 0.642);
 }
 
 .dropdown.active .dropdown-content{
-    height: 180px;
+    height: 200px;
     padding: 40px;
     transition: ease-in 0.3s;
     transition: ease-out 0.3s;
