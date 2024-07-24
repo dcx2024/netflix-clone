@@ -440,6 +440,14 @@ padding-left: 0;
     transition: ease-out 0.3s;
 }
 
+.dropdown-content{
+    overflow: hidden;
+    height: 0;
+    background-color: #59575787;
+
+    color: white;
+    font-size: 15px;
+}
 }
 
 @media(min-width: 400px){
