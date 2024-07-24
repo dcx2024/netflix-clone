@@ -1,4 +1,4 @@
-*{
+d*{
     margin: 0;
     padding: 0;
 
@@ -434,7 +434,7 @@ padding-left: 0;
     }
 
 .dropdown.active .dropdown-content{
-    height: 200px;
+    height: fit-content;
     padding: 40px;
     transition: ease-in 0.3s;
     transition: ease-out 0.3s;
