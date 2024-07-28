@@ -702,6 +702,10 @@ margin-right: auto;
         margin-left: auto;
         margin-right: auto;
     }
+
+	.footer-cols{
+        display: flex;
+    }
 }
 
 @media(min-width:1400px){
@@ -713,11 +717,10 @@ margin-right: auto;
 
 	.email1{
 		width:50vw;
-} .footer-cols{
+} 
+	
+.footer-cols{
         display: flex;
     }
-
-    
-    footer select{
-        display: block;
-    }
+}
+   
