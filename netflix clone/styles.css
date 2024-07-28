@@ -714,13 +714,10 @@ margin-right: auto;
 	.email1{
 		width:50vw;
 } .footer-cols{
-        display: block;
+        display: flex;
     }
 
-    footer a{
-        display: block;
-    }
-
+    
     footer select{
         display: block;
     }
