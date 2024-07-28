@@ -720,7 +720,23 @@ margin-right: auto;
 } 
 	
 .footer-cols{
-        display: flex;
-    }
+    display: flex;
+    justify-content: center;
+}
+
+.footer-cols ul{
+    color: #999;
+    list-style-type: none;
+    padding: 2vw 6vw 0 6vw;
+}
+
+.footer-cols a{
+    color: #999;
+}
+
+.footer-cols li{
+    margin-bottom: 20px;
+}
+
 }
    
